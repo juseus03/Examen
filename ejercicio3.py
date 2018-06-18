@@ -24,7 +24,7 @@ resp = np.zeros(0)
 for i in range(0,N):
     vel = random.uniform(Vmin, Vmax)
     theta = random.uniform(0, np.Pi()/2.0)
-    dist = 0.1*vel**2*np.cos(theta)*np.sin(theta)
+    dist = 0.2*vel**2*np.cos(theta)*np.sin(theta)
     for j in alcance:
         if (dist > j-5 and dist < j+5):
             resp = np.append(resp,vel)
