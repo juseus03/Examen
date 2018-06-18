@@ -4,3 +4,4 @@
 # La ecuación debe ser resuelta hasta un tiempo final T=0.5 y una velocidad c=-1.0.
 # El programa debe hacer una gráfica (adveccion.png) con la condición incial y el resultado final.
 
+
